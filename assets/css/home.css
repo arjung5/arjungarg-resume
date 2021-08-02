@@ -1,0 +1,1122 @@
+/* *******************Mdeia Quiries**************************** */
+
+
+body{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+#main-header{
+    background-image: linear-gradient(120deg, #202224 -30%, rgba(0, 0, 0, 0) 107%),url('/logos/oskar-yildiz-gy08FXeM2L4-unsplash.jpg');
+    height: 65vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    padding-top: 1.2rem;
+}
+.text-center
+{
+        text-align: center;
+}
+.nav-bar ul{
+    list-style:none ;
+    padding: 0;
+    margin: 0px;
+}
+.nav-bar li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.nav-bar ul a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul a:hover{
+    color: lightgrey;
+    text-decoration: underline;
+    transition: color 0.5s ,text-decoration 4s ;
+}
+.header-widget{
+    margin-top:20vh;
+}
+#my-name{
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.social-icons li a img{
+    width: 25px;
+    color: white;
+    margin-top:10px;
+    border-radius: 30%;
+    padding: 10px;
+}
+.social-icons li a img:hover{
+    box-shadow: 0px 0px 10px 2px whitesmoke;
+    transition: box-shadow 1s;
+}
+/* ############################about-section################################### */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+}
+#profile-image{
+    margin:auto;
+    width: 12rem;
+    height: 12rem;
+    margin-top:-16vh;
+
+}
+#profile-image img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    box-shadow: 0px 0px 20px;
+}
+#about p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color:#a09c9e;
+    margin:1rem; 
+    text-align: justify;
+}
+#about span{
+    color:#3660a2;
+
+}
+
+/* ******************************skills*************************** */
+#skills{
+    background-color:#fbfafb;
+    padding:1rem 0 5rem 0;
+}
+#skils-title{
+    margin-top:6rem;
+}
+#skils-title img{
+    width: 38px;
+}
+#skils-title h2{
+    display: inline-block;
+    text-transform:capitalize;
+    color:#3660a2;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: xx-large;
+    margin-bottom: 5rem;
+}
+
+
+/* *****************to review above part******************************************** */
+#skills-show-case
+{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+#skill1
+{
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    border-radius: 1rem;
+}
+#skill1 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 88%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill2
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+#skill2 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 91%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill3
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+#skill3 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 87%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill4
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+#skill4 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 95%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill5
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+#skill5 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 85%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill6
+{ 
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+#skill6 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 70%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+
+#skill7
+{ 
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+#skill7 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+
+#skill8
+{ 
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+#skill8 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+
+#skils-title + div{
+    margin:0 8rem
+}
+
+
+/* ********************************skills*************************** */
+
+/* *******************************portfolio*************************** */
+
+/* ***********************portfolio*************************** */
+#portfolio{
+    margin: 2rem 4rem;
+}
+#portfolio-title{
+    margin-top:6rem;
+    margin-bottom: 2rem;
+    line-height: 28px;
+}
+#portfolio-title img{
+    width: 25px;
+}
+#portfolio-title h2{
+    display: inline-block;
+    text-transform: capitalize;
+    color:#3660a2;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: xx-large;
+    margin-bottom: 3rem;
+}
+
+#portfolio-show-case{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+
+#portfolio-show-case div{
+    width: 30rem;
+    height: 18rem;
+    margin: 2rem 1rem;
+}
+
+#portfolio-show-case div img{
+    width: 100%;
+    height: 100%;
+}
+#portfolio1{
+    position: relative;
+}
+#portfolio1 div{
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left:-15px;
+    position:absolute;
+    background-color: whitesmoke;
+    opacity: 0;
+    color: black;
+}
+#portfolio1 div:hover{
+    opacity: 0.8;
+    text-align: center;
+    font-size: 700;
+    font-weight: 700;
+    border-radius: 1rem;
+    line-height: 12rem;
+    transition: opacity 1s ease-in-out;
+}
+
+/* ***********************************portfolio-ensa******************/
+
+/***************************************contact-starts*************/
+#contact{
+    background-image: linear-gradient(to right, #2b519b,#403066);;
+    
+}
+#contact-title{
+    margin-top:6rem;
+    padding-top: 6rem;
+}
+#contact-title img{
+    width: 38px;
+}
+#contact-title h2{
+    display: inline-block;
+    text-transform: capitalize;
+    color:white;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: xx-large;
+    /* margin-bottom: 5rem; */
+}
+#contact-show-case{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+#contact1 , #contact2{
+    width: 30rem;
+    height: 100%;
+    margin: 3rem 3rem 0 3rem;
+}
+
+.input-structure
+{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    margin-top: 1rem;
+}
+.input-structure input{
+    width: 95%;
+    height: 2.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 0.1rem;
+
+}
+.textarea-structure{
+    width: 95%;
+    margin-top: 1rem;
+    background-color: transparent;
+}
+.textarea-structure textarea{
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid white;
+}
+.submitButton{
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.submitButton button{
+    background-color: transparent;
+    border: .18rem solid white;
+    padding: 0.5rem;
+    letter-spacing: 0.14rem;
+    color: white;
+}
+.conatact2-pin img , .conatact2-mobile img,.conatact2-mail img{
+    width: 1rem;
+    margin-bottom: -4px;
+}
+.conatact2{
+    margin-top: 0;
+}
+#conatact2 div h1{
+    color: white;
+}
+.conatact2-ptag, .conatact2-phtag{
+    color:white;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+.conatact2-phtag
+{
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+.conatact2-pin,.conatact2-mobile,.conatact2-mail{
+    margin:0;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+.conatact2-pin p, .conatact2-mobile p,.conatact2-mail p{
+    display: inline-block;
+    color: white;
+    margin: 0.5rem 0 0 0.4rem;
+}
+#contact1{
+    background-color: transparent;
+}
+#contact2{
+    padding-left: 1rem;
+    background-color: transparent;
+}
+::placeholder {
+    color:#ffffff;
+    opacity: 1; /* Firefox */
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #ffffff;
+  }
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #ffffff;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+    color: #ffffff
+}
+/* **********************************contact-ends******************** */
+
+/* *****************************************work-experience**************** */
+
+/* ***************************************************************work-experience******************** */
+#work-experience{
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
+.timeline-outer{
+    display: inline-block;
+    width: 80%;
+}
+.timeline{
+    width: 100%;
+    position: relative;
+    text-overflow: break-word;
+}
+.timeline-box{
+    width:85%;
+    min-height: 150px;
+    position: relative;
+    margin: 3rem 0;
+    margin-left: 8px;
+    left:10%;
+}
+.timeline-box::after
+{
+    border-radius: 50%;
+    content: '';
+    height: 3%;
+    width: 4%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: -16.5%;
+    z-index: 1;
+}
+.timeline-box-header{
+    display: flex;
+    flex-direction: column;
+}
+.logo-image
+{
+    height:2rem;
+    width:2rem;
+    padding-left: 0.8rem;
+}
+.logo-image img
+{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.desc-timeline-box-header h1,h3,h6
+{
+    margin:.5rem 0 0 1rem ;
+    
+}
+.desc-timeline-box-header h1
+{
+    font-size: 1rem;
+    text-align: start;
+    color: #2857a4;
+}
+.desc-timeline-box-header h3
+{
+    font-size: 1rem;
+    text-align: start;
+    color: #df6b49;
+}
+.desc-timeline-box-header h6
+{
+    font-size: 1rem;
+    text-align: start;
+    color: #a09c9e;
+}
+.work-exp-des{
+    text-align: justify;
+    padding: 0 1rem;
+    color: #a09c9e;
+}
+.timeline-divider
+{
+    position: absolute;
+    top: 10%;
+    width: 0;
+    height: 80%;
+    border-left: 3px dotted #2857a4;
+}
+.timeline-traveller
+{
+    position: sticky;
+    top: 20%; 
+    transform: rotate(180deg);
+    transform-origin: 0.44rem;
+}
+/* ***********************************work-experience-end*********************** */
+
+
+@media screen and (min-width : 600px) {
+    #about{
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+    #about p{
+        line-height: 2rem;
+        font-size: 1.5rem;
+        color:#a09c9e;
+        margin:4rem 10rem; 
+        text-align: justify;
+    }
+    #profile-image{
+        margin:auto;
+        width: 12rem;
+        height: 12rem;
+        margin-top:-9vh;
+    }
+
+    /* *******************skills*************** */
+    #skill1
+{
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    border-radius: 1rem;
+}
+#skill1 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 88%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill2
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+#skill2 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 91%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill3
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+#skill3 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 87%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill4
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+#skill4 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 95%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill5
+{   
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+#skill5 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 85%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill6
+{ 
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+#skill6 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 70%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill7
+{ 
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+#skill7 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+#skill8
+{ 
+    height: 30px;
+    width: 200px;
+    background-color: #d7d6d7;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+#skill8 div
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    background-color: #3660a2;
+    border-radius: 1rem;
+    line-height: 30px;
+}
+    /* ********************skills******************** */
+ /* ***********************portfolio*************************** */
+#portfolio{
+    margin: 2rem 5rem;
+}
+#portfolio-title{
+    margin-top:6rem;
+}
+#portfolio-title img{
+    width: 38px;
+}
+#portfolio-title h2{
+    display: inline-block;
+    text-transform: capitalize;
+    color:#3660a2;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: xx-large;
+    margin-bottom: 5rem;
+}
+#portfolio-show-case{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+#portfolio-show-case div{
+    width: 13rem;
+    height: 13rem;
+    margin: 2rem;
+}
+#portfolio-show-case div img{
+    width: 100%;
+    height: 100%;
+}
+#portfolio1{
+    position: relative;
+}
+#portfolio1 div{
+    width: 100%;
+    height: 100%;
+    top: -30px;
+    left:-30px;
+    position:absolute;
+    background-color: whitesmoke;
+    opacity: 0;
+    color: black;
+}
+#portfolio1 div:hover{
+    opacity: 0.8;
+    text-align: center;
+    font-size: 700;
+    font-weight: 700;
+    border-radius: 1rem;
+    line-height: 12rem;
+    transition: opacity 1s ease-in-out;
+}
+
+/* ***********************************portfilio-end******************/
+
+/**************************************contact-starts**************/
+.submitButton{
+    text-align: end;
+    width: 80%;
+    margin-top: 2rem;
+}
+.input-structure input{
+    width: 95%;
+    height: 2.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.1rem solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 0.1rem;
+
+}
+.textarea-structure{
+    width: 95%;
+    margin-top: 1rem;
+    background-color: transparent;
+}
+#contact1 , #contact2{
+    width: 30rem;
+    height: 100%;
+    margin: 3rem 1rem 4rem 1rem;
+}
+.conatact2-ptag, .conatact2-phtag{
+    color:white;
+}
+.conatact2-phtag ,.conatact2-ptag,.conatact2-phtag,.conatact2-pin,.conatact2-mobile,.conatact2-mail{
+    text-align: start;
+} 
+.conatact2-phtag
+{
+    margin-bottom: 0.6rem;
+}
+/* **************************************contact-end*****************/ 
+/* ***************************************************************work-experience******************** */
+#work-experience{
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
+.timeline-outer{
+    display: inline-block;
+    width: 65vw;
+
+}
+.timeline{
+    /* position: relative; */
+    width: 100%;
+    position: relative;
+    /* overflow: hidden; */
+    text-overflow: break-word;
+    
+}
+.timeline-box{
+    width:40%;
+    min-height: 150px;
+    position: relative;
+    margin: 8px;
+    left:3%;
+}
+.timeline-box:nth-child(2n+1)::after
+{
+    content: '';
+    height: 10%;
+    width: 1%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: 110.2%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after
+{
+    content: '';
+    height: 10%;
+    width: 1%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: -14.8%;
+}
+.timeline-box:nth-child(2n)
+{
+    right:10px;
+    left:53%;
+}
+.timeline-box-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logo-image
+{
+    height: 2rem;
+    width:2rem;
+    padding-left: 0.8rem;
+}
+.logo-image img
+{
+    width: 100%;
+    height: 100%;
+
+}
+.desc-timeline-box-header
+{
+    margin-right: 0.8rem;
+}
+.desc-timeline-box-header h1,h3,h6
+{
+    margin:0;
+    
+}
+.desc-timeline-box-header h1
+{
+    font-size: 1rem;
+    /* overflow-wrap: break-word; */
+    text-align: end;
+    color: #2857a4;
+}
+.desc-timeline-box-header h3
+{
+    font-size: 1rem;
+    /* overflow-wrap: break-word; */
+    text-align: end;
+    color: #df6b49;
+}
+.desc-timeline-box-header h6
+{
+    font-size: 1rem;
+    /* overflow-wrap: break-word; */
+    text-align: end;
+    color: #a09c9e;
+}
+.work-exp-des{
+    /* overflow-wrap: break-word; */
+    text-align: justify;
+    padding: 0 1rem;
+    color: #a09c9e;
+}
+.timeline-divider
+{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    height: 80%;
+    width: 2rem;
+    border: 3px dotted #2857a4;
+}
+.timeline-traveller
+{
+    position: sticky;
+    top: 20%; 
+    transform: rotate(180deg);
+    transform-origin: 1rem;
+}
+/* ***********************************work-experience-end*********************** */
+
+}
+@media screen and (min-width : 900px) {
+    #about p{
+        line-height: 2rem;
+        font-size: 1.5rem;
+        color:#a09c9e;
+        margin:4rem 10rem; 
+        text-align: justify;
+    }
+    
+    .timeline-box:nth-child(2n+1)::after
+{
+    content: '';
+    height: 15%;
+    width: 1%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: 108%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after
+{
+    content: '';
+    height: 15%;
+    width: 1%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: -16.9%;
+}
+}
+@media screen and (min-width : 1000px) {
+    #about p{
+        line-height: 2rem;
+        font-size: 1.5rem;
+        color:#a09c9e;
+        margin:4rem 10rem; 
+        text-align: justify;
+    }
+    #profile-image{
+        margin:auto;
+        width: 12rem;
+        height: 12rem;
+        margin-top:-9vh;
+    }
+    
+    .conatact2-phtag ,.conatact2-ptag,.conatact2-phtag,.conatact2-pin,.conatact2-mobile,.conatact2-mail{
+        text-align: start;
+    }
+       
+    .timeline-box:nth-child(2n+1)::after
+{
+    content: '';
+    height: 15%;
+    width: 1%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: 107.4%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after
+{
+    content: '';
+    height: 15%;
+    width: 1%;
+    background-color: #2857a4;
+    position: absolute;
+    top: 50%;
+    left: -17.6%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *******************Mdeia Quiries**************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************main-body starts****************************** */
+
+
+
+
+
+
+
+
+
+/* ********************************************education************************** */
+
+#education
+{
+    text-align: center;
+    background-color: #fbfafb;
+    padding: 2rem 0;
+}
+.bg-coclor
+{
+    background-color: #fbfafb;
+}
