@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express=require('express');
 const port=3031;
 const flash = require('connect-flash');
@@ -5,6 +6,7 @@ const session=require('express-session');
 const app =express();
 const customeMw=require('./config/middlewareCustom');
 const db=require('./config/mongoose');
+
 const cookieParser = require('cookie-parser');
 
 
